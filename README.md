@@ -149,6 +149,3 @@ The recovered folder is not yet a portable, one-command installation. Before pre
 
 This repository accompanies the academic project **“RAG-Based Economic Chatbot for Analyzing Macroeconomic Indicators”** (2024–2025), submitted at the National Graduate School of Statistics and Applied Economics (ENSSEA).
 
-## License
-
-Add a license only after confirming that you have the right to publish the code and that the license is compatible with the project dependencies and data sources.
