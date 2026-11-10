@@ -1,0 +1,165 @@
+.App {
+ 
+  margin: 10px ;
+  padding: 10px;
+ 
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  text-align:center; /* On change ça si tu veux que ce soit aligné à gauche et plus naturel à lire */
+}
+
+
+.header {
+  display: flex;
+  align-items:center;
+  padding: 20px 0;
+  margin:0;
+  justify-content: flex-start;
+  background-color: transparent;
+  border-bottom: 1px solid #007acc;
+  margin-bottom: 50px;
+}
+
+.school-name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #494646;
+  text-shadow: 1px 1px 1px rgb(3, 3, 85);
+}
+.school-logo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #7cb0be;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ask-container{
+  display: flex;
+  align-items: center; 
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.chatbot-icon{ 
+  transform: scale(1.6);
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;}
+.ask-title{
+  font-size: 34px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  margin-left: -150px;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #007acc;
+  margin-bottom: 15px; /* Ajouter un espace sous la zone de saisie de la question */
+}
+
+button {
+  padding: 11px 20px;
+  margin-bottom: 13px;
+  font-size: 16px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #80878b;
+}
+.reset-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 15px; /* optionnel : pour l'espacer du bouton submit */
+  display: flex;
+  
+}
+
+.reset-img{
+  transform: scale(1.6);
+  width:50px;
+  height:50px;
+}
+
+form {
+  display:flex ;
+  align-items:center;
+  justify-content:center; 
+  margin:40px;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: row;
+  margin-top:50px;
+  height: calc(100vh - 100px); /* ajuste selon header */
+  width: 100%;
+}
+
+.chat-history {
+  width: 250px;
+  margin-top:200px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+.chat-main {
+  flex: 1;
+  padding: 30px;
+}
+.response {
+  margin: 1px auto;
+  max-width: 800px;
+  text-align: left;
+  background-color: #ece6e6;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(1, 34, 71, 0.877);
+  white-space: pre-wrap;
+  position: relative;
+  margin-top: 10px; /* Ajouter un espace entre la question et la réponse */
+}
+

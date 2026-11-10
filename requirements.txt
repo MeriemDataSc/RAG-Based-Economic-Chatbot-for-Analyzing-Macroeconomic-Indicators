@@ -1,0 +1,19 @@
+# Python dependencies used by the chatbot backend and recovered indexing scripts.
+# Versions are intentionally unpinned because the original environment was not recovered.
+# Check LangChain compatibility and pin tested versions before claiming reproducible setup.
+fastapi
+uvicorn
+markdown
+python-dotenv
+langchain
+langchain-community
+langchain-groq
+chromadb
+sentence-transformers
+pypdf
+pdfplumber
+pandas
+numpy
+groq
+mistralai
+requests
